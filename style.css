@@ -1,16 +1,72 @@
-#Groceries{
+#flex{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+
+#flex div{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: row;
     background-color: rgb(224, 184, 136);
+    padding: 15px;
+    padding-top: 20px;
+    width: 500px;
+    transition: width 3s
 
 }
+#Groceries:hover{
+    width: 200px;
+}
+
 
 #GrapesPrice{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: row;
-    border-radius: 40%;
+    
+    
+}
+
+
+h1:hover{
+    background-color: darkgreen;
+    width: 300px;
+    color:aliceblue ;
+    animation-name: colorswitch;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+/* 
+
+@keyframes colorswitch {
+    from {background-color: aqua;}
+    to {background-color: green;}
+}
+
+
+@keyframes multiplecolors {
+    0% {background-color: red;}
+    25% {background-color: pink;}
+    50% {background-color: green;}
+    75% {background-color: blue;}
+    100% {background-color: red;}
+} */
+
+
+img {
+    width: 200px;
+    height: 200px;
+    transition: 4s;
+}
+
+img:hover{
+    width: 400px;
+    height: 500px;
 }
