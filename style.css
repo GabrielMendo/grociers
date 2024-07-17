@@ -70,3 +70,14 @@ img:hover{
     width: 400px;
     height: 500px;
 }
+
+#signUpButton{
+    background-color: white;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    line-height: 25px;
+
+
+}   
